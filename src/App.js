@@ -10,6 +10,7 @@ import DScreen3 from './DScreen3';
 
 import SScreen1 from './SScreen1';
 import SScreen2 from './SScreen2';
+import SScreen3 from './SScreen3';
 
 const MyDrawerNavigator = createDrawerNavigator({
   Home: {
@@ -35,6 +36,9 @@ const MyStackNavigator = createStackNavigator({
   },
   SScreen2: {
     screen: SScreen2,
+  },
+  SScreen3: {
+    screen: SScreen3,
   },
 });
 
