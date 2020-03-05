@@ -1,0 +1,1 @@
+Click on start video and then press back button in header or in nav bar, It doesn't work
