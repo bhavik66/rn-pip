@@ -35,7 +35,7 @@ public class PIPVideo extends ReactActivity implements OnPreparedListener {
     @Override
     protected void onStart() {
         super.onStart();
-//        enterPIP();
+        enterPIP();
         setupVideoView();
         Log.e("PIPVIDEO:", "START");
 //        moveTaskToBack (true);
